@@ -15,33 +15,36 @@
     body {
       font-family: 'Fira Code', monospace;
       font-size: 2em;
+
+      margin: 0;
     }
 
     main {
+      box-sizing: border-box;
+
       min-width: 400px;
       max-width: 720px;
-      margin: 0 auto;
-    }
 
-    .vcard > * {
-      margin-bottom: 20px;
+      margin: 0 auto;
+      padding: 4px;
     }
 
     .fn {
       display: block;
       font-size: 2em;
+      margin-bottom: 10px;
     }
 
-    .org {
-      font-size: 1em;
+    .photo {
+      display: block;
     }
 
     .nickname {
       font-size: 2em;
     }
 
-    .photo {
-      display: block;
+    .adr {
+      margin-bottom: 5px;
     }
 
     a:link {
