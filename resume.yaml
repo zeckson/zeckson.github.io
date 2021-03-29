@@ -1,0 +1,90 @@
+Contact:
+  Name: Evgenii Shchepotev
+  Website: zeckson.github.io
+  Phone: +79119434432
+  Email: evgenii.schepotiev@gmail.com
+
+Professional Summary: |
+  A skilled full stack Java/JavaScript developer with a rich expertise in using modern tools and frameworks. Having extensive industry and full life cycle experience in a Java and JavaScript based environments, along with exceptional analytical, design and problem-solving
+  capabilities. Effective coach and mentor and committed to leading exceptionally gifted teams. Ready to work closely with both teams and customers to identify most efficient and beneficial solutions for process improvement.
+
+Work Experience:
+  - Date: 09/2016 — Present
+    Employer: Smart Home Project
+    Job Title: Project Owner
+    Description:
+      - Infrastructure for Smart Home Local Network and Gadgets.
+      - Developed server and components to control and get data from devices inside home network.
+      - Provided REST API, Web Interface and Telegram Bot Controller via Node.js.
+      - Controller application for Android Phone devices.
+      - Created JavaScript application for Chromecast.
+      - Developed C++ internal drivers and software for devices.
+  - Date: 09/2016 — Present
+    Employer: Vernam Security
+    Job Title: Project Owner
+    Description:
+      - Solved the problem of unique password generation without storing and accessing secure data.
+      - Developed service which allows you to generate unique hostname dependent irreversible passwords with predictable strength.
+      - Provided open source online password generator.
+      - Provided Chrome extension to generate your password on the fly.
+      - Developed Android App to easily generate your passwords on your phone.
+  - Date: 08/2020 — 12/2020
+    Employer: Vileda Freudenberg Russia
+    City: Saint-Petersburg
+    Job Title: Project Lead
+    Description:
+      - Designed and created software prototype for in-home solution for calculation prices and necessary environment.
+      - Researched and chose necessary frameworks and libraries to solve the task fast and clean.
+      - Scheduled and provided roadmap and release milestones.
+      - Managed team of two people to achieve all goals in time.
+  - Date: 09/2016 — 05/2019
+    Employer: HTML Academy
+    City: Saint-Petersburg
+    Job Title: JavaScript and Node.JS Course Developer
+    Description:
+      - Developed educational programs for new courses.
+      - Provided all necessary documentation, examples, tasks, tutorials and other assets for students.
+      - Developed and integrated software to check knowledge level of students.
+      - Performed live web lectures.
+      - Managed a team of course supporters and course developers.
+  - Date: 11/2011 — 09/2016
+    Employer: JetBrains GmbH
+    City: Munich
+    Job Title: Senior Java Full Stack Developer
+    Description:
+      - Gathered user feedback and made improvements in existing software.
+      - Designed and implemented new scalable applications for user management systems.
+      - Integrated several web services in common Single SignOn portal.
+      - Designed common REST API of different services and distributed applications.
+      - Mentored Junior Developers and Trainees.
+  - Date: 09/2008 — 11/2011
+    Employer: JetBrains
+    City: Saint-Petersburg
+    Job Title: Java Full Stack Developer
+    Description:
+      - Researched, designed and implemented scalable web applications for issue managing and
+      project tracking.
+      - Performed integration testing before launching applications.
+      - Gathered user feedback and made recommendations.
+
+Education:
+  - Date: 09/2004 — 10/2010
+    Name: IFMO Saint-Petersburg University
+    Degree: Master's Degree in Computer Vision and Image Processing
+    Description: |
+      Completed special courses of Artificial Intelligence
+
+Languages:
+  - Russian: Native
+  - English: Upper-Intermediate
+  - German: Intermediate
+  - Spanish: Beginner
+
+Skills:
+  - Accurate managing and planning
+  - Self learning and evolving
+  - Algorithm implementation
+  - Maintaining existing code
+  - HTML and CSS
+  - Agile
+  - Open Source projects experience
