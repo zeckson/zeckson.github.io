@@ -1,6 +1,11 @@
 import {pug, yaml} from "../deps.ts";
 
 // @ts-ignore
-console.dir(await yaml.parse(await Deno.readTextFile(`./resume.yaml`)));
-console.dir(pug.name);
-console.dir(pug.compileFile);
+const config: object = await yaml.parse(await Deno.readTextFile(`./src/resume.yaml`));
+console.dir(config);
+
+const html = pug.renderFile(`./src/resume.pug`, {data: config}, undefined);
+
+// @ts-ignore
+Deno.writeTextFile(`./resume.html`, html)
+console.log(html);

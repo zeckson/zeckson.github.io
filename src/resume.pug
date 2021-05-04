@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title= data.Contact.Name
+  body
+    header
+      = JSON.stringify(data.Contact)
+    section.summary
+      = data["Professional Summary"]
+    section.work_experience
+      pre= JSON.stringify(data['Work Experience'], null, 2)
+    section.education
+      = data.Education
+    section.languages
+      = data.Languages
+    section.skills
+      = data.Skills
