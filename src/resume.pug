@@ -2,6 +2,7 @@ doctype html
 html(lang="en")
   head
     title= data.Contact.Name
+    meta(charset="UTF-8")
     style.
       @font-face {
         font-family: 'Fira Code';
@@ -10,23 +11,86 @@ html(lang="en")
 
       html {
         font-family: 'Fira Code', Courier, monospace;
+
+        background-color: rgb(106, 145, 182);
+      }
+
+      body {
+        margin: 0 0 0 80px;
+
+        padding: 20px 20px 50px 30px;
+        max-width: 800px;
+
+        background-color: rgb(246, 246, 246);
+
+      }
+
+      hr {
+        margin-top: 0;
+        border-width: 1px;
+        border-color: black;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      h3 {
+        margin-bottom: 0;
+      }
+
+      h4 {
+        margin: 0;
+      }
+
+      ul {
+        margin: 5px 0 0;
       }
 
       .pair {
-        display: flex
+        display: flex;
+        align-items: baseline;
       }
+
+      .pair .key {
+        font-size: 1.25em;
+        margin-right: 20px;
+      }
+
+      .pair p {
+        margin-bottom: 0;
+      }
+
+      .summary p {
+        text-align: justify;
+      }
+
+      .job {
+        margin-bottom: 15px;
+      }
+
+      .date {
+        float: right;
+        margin-right: 30%;
+      }
+
   body
     header
       h1= data.Contact.Name
       article.pair
-        h3 Website
+        h3.key Website
         p= data.Contact.Website
       article.pair
-        h3 Phone
+        h3.key Phone
         p!= data.Contact.Phone
       article.pair
-        h3 Email
+        h3.key Email
         p= data.Contact.Email
+
     section.summary
       h2 Professional Summary
       hr
@@ -37,8 +101,8 @@ html(lang="en")
       each job in data['Work Experience']
         article.job
           .date!= job.Date
-          .employer: b= job.Employer
-          .position= job["Job Title"]
+          h4.employer= job.Employer
+          .position: i= job["Job Title"]
           ul.description
             each it in job.Description
               li= it
@@ -48,16 +112,18 @@ html(lang="en")
       each education in data.Education
         article.education
           .date!= education.Date
-          .name: b= education.Name
-          .degree= education.Degree
-          p.description= education.Description
+          h4.name= education.Name
+          .degree: i= education.Degree
+          ul.description
+            each it in education.Description
+              li= it
     section.languages
       h2 Languages
       hr
       each lang in data.Languages
         each value, key in lang
           article.pair
-            p= key
+            p.key= key
             p= value
     section.skills
       h2 Additional Skills
