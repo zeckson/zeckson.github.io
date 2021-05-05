@@ -2,16 +2,66 @@ doctype html
 html(lang="en")
   head
     title= data.Contact.Name
+    style.
+      @font-face {
+        font-family: 'Fira Code';
+        src: url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+      }
+
+      html {
+        font-family: 'Fira Code', Courier, monospace;
+      }
+
+      .pair {
+        display: flex
+      }
   body
     header
-      = JSON.stringify(data.Contact)
+      h1= data.Contact.Name
+      article.pair
+        h3 Website
+        p= data.Contact.Website
+      article.pair
+        h3 Phone
+        p!= data.Contact.Phone
+      article.pair
+        h3 Email
+        p= data.Contact.Email
     section.summary
-      = data["Professional Summary"]
+      h2 Professional Summary
+      hr
+      p= data["Professional Summary"]
     section.work_experience
-      pre= JSON.stringify(data['Work Experience'], null, 2)
+      h2 Work Experience
+      hr
+      each job in data['Work Experience']
+        article.job
+          .date!= job.Date
+          .employer: b= job.Employer
+          .position= job["Job Title"]
+          ul.description
+            each it in job.Description
+              li= it
     section.education
-      = data.Education
+      h2 Education
+      hr
+      each education in data.Education
+        article.education
+          .date!= education.Date
+          .name: b= education.Name
+          .degree= education.Degree
+          p.description= education.Description
     section.languages
-      = data.Languages
+      h2 Languages
+      hr
+      each lang in data.Languages
+        each value, key in lang
+          article.pair
+            p= key
+            p= value
     section.skills
-      = data.Skills
+      h2 Additional Skills
+      hr
+      ul.skills
+        each skill in data.Skills
+          li= skill
