@@ -9,16 +9,17 @@ Professional Summary: |
   capabilities. Effective coach and mentor and committed to leading exceptionally gifted teams. Ready to work closely with both teams and customers to identify most efficient and beneficial solutions for process improvement.
 
 Work Experience:
-  - Date: 05/2021 — Present
+  - Date: 05/2021 — 12/2021
     Employer: Swift Inventions
     Job Title: Project Lead
     Description:
       - Support business client.
+      - Manage project with Scrum/Kanban framework.
       - Setup and maintain infrastructure (AWS, kubernetes, terraform).
-      - Provide REST API with Node.js TypeScript and typeorm framework.
-      - Developed internal chat with MongoDB, WebSocketIO.
-      - Develop and support frontend app with React, typescript.
-    Tags: [Kubernetes, Terraform, AWS, Node.JS, TypeScript, MongoDB, PostgreSQL,]
+      - Provide REST API with Node.js, TypeScript and PostgreSQL.
+      - Develop internal chat with MongoDB, Socket.IO.
+      - Develop and support frontend app with React, TypeScript.
+    Tags: [Kubernetes, Terraform, AWS, Node.JS, TypeScript, MongoDB, PostgreSQL, typeorm, Socket.IO, fastify, React]
   - Date: 11/2017 — Present
     Employer: Smart Home Project
     Job Title: Project Owner
