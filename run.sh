@@ -1,3 +1,3 @@
 #!/bin/sh
 
-deno run --allow-read --allow-write src/resume.ts
+deno run --allow-read --allow-write ./src/resume.ts
