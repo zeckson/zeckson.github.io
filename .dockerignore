@@ -2,6 +2,8 @@ src/
 
 .idea
 .git
+.github
+
 .env
 .editorconfig
 .gitignore
@@ -12,3 +14,4 @@ deps.ts
 Dockerfile
 README.md
 run.sh
+compose.yaml
