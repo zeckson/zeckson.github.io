@@ -1,0 +1,14 @@
+services:
+
+  web:
+    image: zeckson.com:3
+    build: .
+    environment:
+      VIRTUAL_HOST: ${VIRTUAL_HOST_NAME}
+      LETSENCRYPT_HOST: ${VIRTUAL_HOST_NAME}
+    container_name: zeckson.com
+
+networks:
+  default:
+    name: nginx-proxy
+
