@@ -1,0 +1,13 @@
+src/
+
+.idea
+.git
+.editorconfig
+.gitignore
+.dockerignore
+.tool-versions
+
+deps.ts
+Dockerfile
+README.md
+run.sh
