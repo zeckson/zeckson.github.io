@@ -2,6 +2,7 @@ src/
 
 .idea
 .git
+.env
 .editorconfig
 .gitignore
 .dockerignore
